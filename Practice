@@ -1,0 +1,19 @@
+// function
+function calculate() {
+    const a = 14;
+    const b = 10;
+    console.log("result", a + b);
+  };
+  calculate();
+  
+  // Object
+  const myAccessory = {
+    name: "IPhone",
+    quantity: 1,
+    
+    announce() {
+    console.log(`I have ${this.quantity} ${this.name}`);
+  },
+  };
+    
+  myAccessory.announce();
